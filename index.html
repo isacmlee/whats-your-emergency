@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Call 911!</title>
+    <link rel="stylesheet" type = 'text/css' href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  
+    
+
+</head>
+<body>
+
+    <header id = "landing-page">
+        <h1 id="title">911 </h1>
+        <h2 id="sub-title">What's Your Emergency?</h2>
+        </br>
+    </header>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        </br>
+        </br>
+        <div id="introduction">
+            <div class="typewriter">
+                <h1>Location: Montgomery County, Pennsylanvia.</h1>
+            </div>
+        </div>
+        <h3>
+            Montgomery County is the third-most populous county in the Commonwealth of Pennsylvania, and the 73rd-most populous in the United States. <br> With a constant growing population, it is important to create an efficient and effective strategy to handle 911 calls countywide.
+        </h3>
+        <br>
+        <figure>
+            <img id="heatmap" src="images/heatmap.png">	
+            <figcaption>General Overview of 911 Calls from 2016 - 2019.</figcaption>
+        </figure>
+        </br>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        </br>
+        <h1 id ="graph-title"> How many 911 calls are there?</h1>
+        <div id = "container">
+            <div class = 'd1'>
+                <h2> 145,837 <br> Each Year </h2>
+            </div>
+            <div class = 'd1'>
+                <h2> 48,612 <br>  Each Month </h2>
+            </div>
+            <div class = 'd1'>
+                <h2> 400 <br> Each Day </h2>
+            </div>
+        </div>
+        <br>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        <br>
+        <h1 id ="graph-title">Breakdown of 911 Call Categories from 2016-2019</h1>
+        <figure>
+            <div id = 'piesContainer'></div>
+            <h3>A <span style = 'color:rgb(171,33,33)'>Quick </span> Breakdown</h3>
+            <h4>There are 3 main categories of 911 calls: Fire, Traffic, and Emergency Medical Services (EMS). Approximately <b>half</b> of all 911 calls are related to an Emergency Medical Service related incident.<br><br> The top incidents for each category were: fire alarms, vehicle accidents, and respiratory emergencies.</span></h4>
+        </figure>
+        </br>  
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        </br>
+        <figure>
+            <h1 id ="graph-title">What were the top 10 reasons for a 911 call?</h1>
+            <div id = 'bar-chart'> Stacked Bar Chart</div>
+            <h3> Vehicle  <span style = 'color:rgb(171,33,33)'>Accidents </span> On Top</h3>
+            <h4>Vehicle accidents led the way as the #1 reason for 911 calls, beating out the next 5 incidents <i>combined. </i> However, vehicle accidents <i>and</i> disabled vehicle incidents together beat out the next 8 incidents combined. It is clear that traffic related incidents are a primary reason for 911 calls.  </h4>
+        </figure>
+        <br>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        <br>
+        <figure>
+            <h1 id ="graph-title">Focusing on the Top 5</h1>
+            <caption><i>Percentages represent proportions of the top 5 only.</i></caption> 
+            <div id = 'stackedBarContainer'> Stacked Bar Chart</div>
+            <h3> <span style='color: rgb(171,33,33)'>Readjusting</span> Our Focus</h3>
+            <h4>Over the last 4 years, the top 5 incidents have been consistent, always within 1-3% of the previous year. In the previous graph we saw that vehicle accidents and disabled vehicles led the way in being the top incidents. Here, we can see that that has been the case over the last 4 years, suggesting that this has been an ongoing issue. <br><br> Although we might have noticed that EMS as a whole accounts for more 911 calls, this is due to there being many more different EMS related calls than traffic incidents. However, we saw that vehicle accidents are the main reason for 911 calls by a large margin, and thus we will focus our efforts on this sole incident moving forward.</h4>
+        </figure>
+        <br>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        <br>
+        <figure>
+            <h1 id ="graph-title">911 Calls for Vehicle Accidents by Hour and Day</h1>
+            <div id = 'heatContainer'></div>
+            <h3>A Look Back In <span style = 'color:rgb(171,33,33)'>Time</span></h3>
+            <h4>The two main time periods for car accident calls appear to be 7AM - 9AM and 3PM - 6PM, from Sunday to Thursday.
+            These are fairly intuitive findings as they match the work commute times of most people.</h4>
+        </figure>
+        <br>
+        <figure id="arrow">
+            <div class="arrow down"></div>
+        </figure>
+        <br>
+        <br>
+        <figure>
+            <table class="styled-table">
+                <h1 id="graph-title">The 5 Most Dangerous Intersections</h1>
+                <img id="heatmap" src="images/car_accidents.png">	
+                <figcaption> Locations of Car Accident Calls. <br><i>(top 5 intersections are within the red cirlce)</i></figcaption> <br>
+                <caption>Mean Number of Accidents per Intersection is <span style="color:red"><i>7.75</i></span></caption>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th id="right">Incidents</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Schuylkill Expy & Weadley Rd Overpass</td>
+                        <td id="right">939</td>
+                    </tr>
+                    <tr>
+                        <td>Schuylkill Expy & Conshohocken State Underpass</td>
+                        <td id="right">825</td>
+                    </tr>
+                    <tr>
+                        <td>Schuylkill Expy & Waverly Rd Underpass</td>
+                        <td id="right">559</td>
+                    </tr>
+                    <tr>
+                        <td>Schuylkill Expy & Croton Rd Underpass</td>
+                        <td id="right">516</td>
+                    </tr>
+                    <tr>
+                        <td>Bethlehem Pike & North Wales RD</td>
+                        <td id="right">473</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3> The <span style = 'color:rgb(171,33,33)'>Dangers</span> of Intersections </h3>
+            <h4>As the mean number of accidents per intersection is 7.75, the 5 most dangerous intersections have a much greater number of incidents than the mean. <br><br> These are the intersections that the County of Montgomery must focus on, and assess if there are any design flaws that are facilitating accidents. Moreover, the Montgomery County should consider setting Police routes near these intersections at the times of highest accidents (shown in prior visualization). </h4>
+        </figure>
+
+        <br>
+        <br>
+
+
+    
+
+
+
+
+    
+    
+       
+    
+</body>
+
+
+<script src = https://code.highcharts.com/highcharts.js> </script>
+<script src="https://code.highcharts.com/modules/item-series.js"></script>
+<script src="http://code.highcharts.com/modules/heatmap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src = "./scripts/main.js"></script>
+
+
+</html>

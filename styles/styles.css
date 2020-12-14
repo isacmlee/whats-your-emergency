@@ -1,0 +1,145 @@
+body,header,h2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+    color: darkorange;
+    text-align: center;
+}
+
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+#graph-title {
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+    color: darkred;
+    text-align: center;
+}
+
+#title {
+    font-style: italic;
+    font-size: 200px;
+    text-align: center;
+    margin:0;
+    line-height: 250px;
+    color: darkred;
+    text-decoration: underline;
+}
+
+#sub-title {
+    font-size: 22px;
+    text-align:center;
+    margin: 0;
+    color: darkred;
+    font-weight: bold;
+}
+
+#subject {
+    font-size: 30px;
+    text-align: center;
+    margin:0;
+    color: darkred;
+}
+
+.arrow {
+  border: solid darkorange;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heatmap {
+    width: 30%;
+    height: 30%;
+}
+
+.typewriter h1 {
+    font-size: 30px;
+    width: 61%;
+    color: darkred;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 61% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+#container {
+    border: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.styled-table {
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 400px;
+}
+
+.styled-table thead tr {
+    background-color: darkorange;
+    font-family: 'Montserrat', sans-serif;
+    color: darkred;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.styled-table tbody tr{
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+#right {
+    text-align: right;
+}
