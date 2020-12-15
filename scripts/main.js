@@ -14,7 +14,7 @@ function init() {
 function plotStackedBar(){
     Highcharts.chart('stackedBarContainer', {
         chart: {
-            backgroundColor: 'black',
+            backgroundColor: '#080808',
             type: 'bar',
             style: {
                 fontFamily: 'Montserrat',
@@ -49,7 +49,7 @@ function plotStackedBar(){
             }
         },
         yAxis: {
-            gridLineColor: 'black',
+            gridLineColor: '#080808',
             min: 0,
             title: {
                 text: '911 Call Amounts',
@@ -107,7 +107,7 @@ function plotStackedBar(){
 function plotPie(){
     Highcharts.chart('piesContainer', {
         chart: {
-            backgroundColor: 'black',
+            backgroundColor: '#080808',
             type: 'pie',
             style: {
                 fontFamily: 'Montserrat',
@@ -512,7 +512,7 @@ function plotHeat(){
     Highcharts.chart('heatContainer', {
 
         chart: {
-            backgroundColor: 'black',
+            backgroundColor: '#080808',
             type: 'heatmap',
         },
         title: {
@@ -763,7 +763,7 @@ bar = [
 function plotBar(){
     Highcharts.chart('bar-chart', {
         chart: {
-            backgroundColor: 'black',
+            backgroundColor: '#080808',
             type: 'bar',
             style: {
                 fontFamily: 'Montserrat',
@@ -798,7 +798,7 @@ function plotBar(){
             }
         },
         yAxis: {
-            gridLineColor: 'black',
+            gridLineColor: '#080808',
             min: 0,
             title: {
                 style: {
@@ -807,7 +807,7 @@ function plotBar(){
                     color: "darkorange",
                     fontSize: 20 + 'px'
                 },
-                text: 'Incidents',
+                text: 'Number of Incidents',
                 align: 'middle'
             },
             labels: {
@@ -815,7 +815,7 @@ function plotBar(){
             }
         },
         tooltip: {
-            valueSuffix: ' millions'
+            valueSuffix: ' Incidents'
         },
         plotOptions: {
             series: {
@@ -886,7 +886,7 @@ var line = [
 function linePlot(){
     Highcharts.chart('line-chart', {
         chart: {
-            backgroundColor: 'black',
+            backgroundColor: '#080808',
             type: 'line',
             zoomType: 'xy'
         },
@@ -900,7 +900,7 @@ function linePlot(){
             layout: 'horizontal',
             verticalAlign: 'top',
             floating: false,
-            backgroundColor: '#FFFFFF'
+            backgroundColor: '#080808'
         },
         xAxis: {
             categories: [

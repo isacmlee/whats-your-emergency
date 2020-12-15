@@ -1,20 +1,30 @@
 body,header,h2 {
     font-family: 'Montserrat', sans-serif;
-    background-color:black;
+    background-color:#080808;
     color: darkorange;
-    text-align: center;
+    text-align: justify;
 }
 
 h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    background-color:black;
+    background-color::#080808;
     color: white;
-    text-align: center;
+    text-align: justify;
 }
+
+h4 {
+    line-height: 2;
+    font-size: 20px;
+}
+
+#intro {
+    line-height: 2;
+    font-size: 20px;
+} 
 
 #graph-title {
     font-family: 'Montserrat', sans-serif;
-    background-color:black;
+    background-color::#080808;
     color: darkred;
     text-align: center;
 }
@@ -44,6 +54,17 @@ h3, h4 {
     color: darkred;
 }
 
+#plot {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#plot-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
 .arrow {
   border: solid darkorange;
   border-width: 0 3px 3px 0;
@@ -69,7 +90,7 @@ h3, h4 {
 
 .typewriter h1 {
     font-size: 30px;
-    width: 61%;
+    width: 63%;
     color: darkred;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -85,7 +106,7 @@ h3, h4 {
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 61% }
+    to { width: 63% }
   }
   
   /* The typewriter cursor effect */
