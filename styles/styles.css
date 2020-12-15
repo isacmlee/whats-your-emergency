@@ -1,13 +1,13 @@
 body,header,h2 {
     font-family: 'Montserrat', sans-serif;
-    background-color:#080808;
+    background-color:#101010;
     color: darkorange;
     text-align: justify;
 }
 
 h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    background-color:#080808;
+    background-color:#101010;
     color: white;
     text-align: justify;
 }
@@ -17,9 +17,10 @@ h4 {
     font-size: 20px;
 }
 
+
 #lede {
     font-family: 'Montserrat', sans-serif;
-    background-color:#080808;
+    background-color:#101010;
     color: white;
     text-align: justify;
 }
@@ -36,7 +37,7 @@ h4 {
 
 #graph-title {
     font-family: 'Montserrat', sans-serif;
-    background-color: #080808;
+    background-color: #101010;
     color: darkred;
     text-align: center;
 }
@@ -139,9 +140,10 @@ h4 {
     margin-right: auto;  
     border-collapse: collapse;    
     width: 500px;  
-    font-size: 0.9em;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     min-width: 400px;
+    color: black;
 }
 
 .styled-table thead tr {
@@ -161,7 +163,7 @@ h4 {
 }
 
 .styled-table tbody tr{
-    background-color: #f3f3f3;
+    background-color: lightgray;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -191,7 +193,7 @@ body {font-family: 'Montserrat', sans-serif; margin:0}
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: #080808;
+    background: #101010;
 }
 
 /* Slides */
@@ -233,7 +235,7 @@ body {font-family: 'Montserrat', sans-serif; margin:0}
 .dot-container {
     text-align: center;
     padding: 10px;
-    background: #080808;
+    background: #101010;
 }
 
 /* The dots/bullets/indicators */
@@ -262,7 +264,7 @@ q {font-style: italic;}
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    background-color:#080808;
+    background-color:#101010;
     color: white;
     text-align: center;
 }

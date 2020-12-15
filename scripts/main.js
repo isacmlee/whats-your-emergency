@@ -13,7 +13,7 @@ function init() {
 function plotStackedBar(){
     Highcharts.chart('stackedBarContainer', {
         chart: {
-            backgroundColor: '#080808',
+            backgroundColor: '#101010',
             type: 'bar',
             style: {
                 fontFamily: 'Montserrat',
@@ -48,7 +48,7 @@ function plotStackedBar(){
             }
         },
         yAxis: {
-            gridLineColor: '#080808',
+            gridLineColor: '#101010',
             min: 0,
             title: {
                 text: '911 Call Amounts',
@@ -106,7 +106,7 @@ function plotStackedBar(){
 function plotPie(){
     Highcharts.chart('piesContainer', {
         chart: {
-            backgroundColor: '#080808',
+            backgroundColor: '#101010',
             type: 'pie',
             style: {
                 fontFamily: 'Montserrat',
@@ -511,7 +511,7 @@ function plotHeat(){
     Highcharts.chart('heatContainer', {
 
         chart: {
-            backgroundColor: '#080808',
+            backgroundColor: '#101010',
             type: 'heatmap',
         },
         title: {
@@ -762,7 +762,7 @@ bar = [
 function plotBar(){
     Highcharts.chart('bar-chart', {
         chart: {
-            backgroundColor: '#080808',
+            backgroundColor: '#101010',
             type: 'bar',
             style: {
                 fontFamily: 'Montserrat',
@@ -797,7 +797,7 @@ function plotBar(){
             }
         },
         yAxis: {
-            gridLineColor: '#080808',
+            gridLineColor: '#101010',
             min: 0,
             title: {
                 style: {
@@ -886,7 +886,7 @@ var line = [
 function linePlot(){
     Highcharts.chart('line-chart', {
         chart: {
-            backgroundColor: '#080808',
+            backgroundColor: '#101010',
             type: 'line',
             zoomType: 'xy'
         },
@@ -900,7 +900,7 @@ function linePlot(){
             layout: 'horizontal',
             verticalAlign: 'top',
             floating: false,
-            backgroundColor: '#080808'
+            backgroundColor: '#101010'
         },
         xAxis: {
             categories: [

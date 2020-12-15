@@ -90,17 +90,20 @@
     </figure>
     </br>
     <h1 id ="graph-title"> How many 911 calls are there?</h1>
-    <div id = "container">
-        <div class = 'd1'>
-            <h2> 145,837 <br>  <span style = 'color:lightgray'>Each Year</span> </h2>
+    <figure>
+        <div id = "container">
+            <div class = 'd1'>
+                <h2> 145,837 <br>  <span style = 'color:lightgray'>Each Year</span> </h2>
+            </div>
+            <div class = 'd1'>
+                <h2> 48,612 <br>  <span style = 'color:lightgray'>Each Month</span> </h2>
+            </div>
+            <div class = 'd1'>
+                <h2> 400 <br>  <span style = 'color:lightgray'>Each Day</span> </h2>
+            </div>
         </div>
-        <div class = 'd1'>
-            <h2> 48,612 <br>  <span style = 'color:lightgray'>Each Month</span> </h2>
-        </div>
-        <div class = 'd1'>
-            <h2> 400 <br>  <span style = 'color:lightgray'>Each Day</span> </h2>
-        </div>
-    </div>
+        <h3 id="plot-title">In less than 6 years, every resident in Montgomery County would have called 911 at least once.</h3>
+    </figure>
     <br>
     <figure id="arrow">
         <div class="arrow down"></div>
@@ -110,7 +113,7 @@
     <figure>
         <div id = 'piesContainer'></div>
         <h3 id="plot-title" >A <span style = 'color:rgb(171,33,33)'>Quick </span> Breakdown</h3>
-        <h4>There are 3 main categories of 911 calls: Fire, Traffic, and Emergency Medical Services (EMS). Approximately <b>half</b> of all 911 calls are related to an Emergency Medical Service related incident. The top incidents for each category were: fire alarms, vehicle accidents, and respiratory emergencies.</span></h4>
+        <h4>There are 3 main categories of 911 calls: Fire, Traffic, and Emergency Medical Services (EMS). Approximately <b>half</b> of all 911 calls are related to an Emergency Medical Service incident.</span></h4>
     </figure>
     </br>  
     <figure id="arrow">
@@ -121,7 +124,7 @@
         <h1 id ="graph-title">What were the top 10 reasons for a 911 call?</h1>
         <div id = 'bar-chart'> Stacked Bar Chart</div>
         <h3 id="plot-title"> Vehicle  <span style = 'color:rgb(171,33,33)'>Accidents </span> On Top</h3>
-        <h4>Vehicle accidents led the way as the #1 reason for 911 calls, beating out the next 5 incidents <i>combined. </i> However, vehicle accidents <i>and</i> disabled vehicle incidents together beat out the next 8 incidents combined. It is clear that traffic related incidents are a primary reason for 911 calls.  </h4>
+        <h4>Vehicle accidents led the way as the #1 reason for 911 calls, beating out the next 5 incidents <i>combined. </i> However, vehicle accidents <i>and</i> disabled vehicle incidents together beat out the next 8 incidents combined. It is clear that traffic related incidents are a large reason for 911 calls.  </h4>
     </figure>
     <figure id="arrow">
         <div class="arrow down"></div>
@@ -132,7 +135,7 @@
         <caption><i>Percentages represent proportions of the top 5 only.</i></caption> 
         <div id = 'stackedBarContainer'> Stacked Bar Chart</div>
         <h3 id="plot-title"> <span style='color: rgb(171,33,33)'>Readjusting</span> Our Focus</h3>
-        <h4>Over the last 4 years, the top 5 incidents have been consistent, always within 1-3% of the previous year. In the previous graph we saw that vehicle accidents and disabled vehicles led the way in being the top incidents. Here, we can see that that has been the case over the last 4 years, suggesting that this has been an ongoing issue. <br><br> Although we might have noticed that EMS as a whole accounts for more 911 calls, this is due to there being many more different EMS related calls than traffic incidents. However, we saw that vehicle accidents are the main reason for 911 calls by a large margin, and thus we will focus our efforts on this sole incident moving forward.</h4>
+        <h4>Over the last 4 years, the top 5 incidents have been consistent, always within 1-3% of the previous year. In the previous graph, we saw that vehicle accidents and disabled vehicles led the way in being the top incidents. Here, we can see that that has been the case over the last 4 years, suggesting that these incidents are important to minimize. <br><br> Although we have noticed that EMS as a whole accounts for more 911 calls (due to the greater variety of EMS incidents), we are choosing to focus on vehicle accidents because it is just one incident that overtakes other causes for 911 calls by a large margin.</h4>
     </figure>
     <br>
     <figure id="arrow">
@@ -160,7 +163,7 @@
                 <figcaption> Locations of Car Accident Calls. <br><i>(top 5 intersections are within the red circle)</i></figcaption> <br>
             </figure>
     
-            <caption>Mean Number of Accidents per Intersection is <span style="color:red"><i>7.75</i></span></caption>
+            <caption><span style="color:white">Mean Number of Accidents per Intersection is </span><span style="color:red"><i>7.75</i></span></caption>
             <thead>
                 <tr>
                     <th>Location</th>
@@ -197,9 +200,18 @@
         <div class="arrow down"></div>
     </figure>
     <br>
-    <h1 id="graph-title">Conclusion</h3>
-    <h4> These are the intersections that the County of Montgomery must focus on, and assess if there are any design flaws that are facilitating accidents. Moreover, the Montgomery County should consider setting Police routes near these intersections at the times of highest accidents (shown in prior visualization). </h4>
+    <figure>
+        <h1 id="graph-title">Possible Solutions</h3>
+        <h4> 
+            In order to create a more efficient and effective strategy in responding to 911 calls, we suggest two solutions:
+            <br>
+            <br>
+            1. Police officers should take routes near or along the top 5 most dangerous interesections during the most likely time periods for a vehicle accident. 
+            For example, a police officer will, from 7AM to 9AM and 3PM to 6PM (Sunday - Thursday), reside along the specified top 5 intersections. <br><br>
 
+            2. The County of Montgomery should assess if there are any design flaws that are facilitating vehicle accidents in the respective intersections.
+            </h4>
+    </figure>
     <br>
     <br>
 
