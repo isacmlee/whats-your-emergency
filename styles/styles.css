@@ -7,12 +7,24 @@ body,header,h2 {
 
 h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    background-color::#080808;
+    background-color:#080808;
     color: white;
     text-align: justify;
 }
 
 h4 {
+    line-height: 2;
+    font-size: 20px;
+}
+
+#lede {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#080808;
+    color: white;
+    text-align: justify;
+}
+
+#outline {
     line-height: 2;
     font-size: 20px;
 }
@@ -24,7 +36,7 @@ h4 {
 
 #graph-title {
     font-family: 'Montserrat', sans-serif;
-    background-color::#080808;
+    background-color: #080808;
     color: darkred;
     text-align: center;
 }
@@ -163,4 +175,94 @@ h4 {
 
 #right {
     text-align: right;
+}
+
+#slide {
+    color: darkred;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+* {box-sizing: border-box}
+body {font-family: 'Montserrat', sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #080808;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: darkorange;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 10px;
+    background: #080808;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 1px;
+  background-color: darkred;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: white;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: white;}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color:#080808;
+    color: white;
+    text-align: center;
 }
